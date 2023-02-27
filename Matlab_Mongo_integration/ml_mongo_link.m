@@ -26,12 +26,12 @@ for i = 1:samples_size
     t_stamp = out.tout(i);
 
     i_a = out.Current(i,1);  %current from phase A
-    i_b = out.Current(i,1);  %current from phase B
-    i_c = out.Current(i,1);  %current from phase C
+    i_b = out.Current(i,2);  %current from phase B
+    i_c = out.Current(i,3);  %current from phase C
 
     v_a = out.Current(i,1);  %voltage from phase A
-    v_b = out.Current(i,1);  %voltage from phase B
-    v_c = out.Current(i,1);  %voltage from phase C
+    v_b = out.Current(i,2);  %voltage from phase B
+    v_c = out.Current(i,3);  %voltage from phase C
 
     % format string 
     fmt_str='{"t_stamp":%d, "current":{"phase_a": %f, "phase_b": %f, "phase_c": %f},"voltage":{"phase_a": %f, "phase_b": %f, "phase_c": %f}}';
