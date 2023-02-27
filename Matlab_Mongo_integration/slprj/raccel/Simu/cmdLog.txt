@@ -1,0 +1,5 @@
+The argument '-tgtconn_server_info_file' passed to rtiostream_tcpip is not valid and will be ignored.
+The argument 'C:\Users\sapta\AppData\Local\Temp\tgtconnp70989438_d678_4d2d_af2a_063517011218.info' passed to rtiostream_tcpip is not valid and will be ignored.
+The argument '-tgtconn_port' passed to rtiostream_tcpip is not valid and will be ignored.
+The argument '0' passed to rtiostream_tcpip is not valid and will be ignored.
+Firewall Rule Add failed: 80070057

@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/SlsaMaskTree/R2020a">
+  <slsa.mm.maskTree.MaskTree type="slsa.mm.maskTree.MaskTree" uuid="430d2f5d-e4b7-440a-acda-ed882a9a8276">
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="4fbe1c3e-71f8-43e2-be38-4c3a26a5d480">
+      <blockPath>Simu/Three-Phase Programmable Voltage Source</blockPath>
+      <childrenIds>Simu:1:264:139</childrenIds>
+      <childrenIds>Simu:1:264:157</childrenIds>
+      <childrenIds>Simu:1:264:209</childrenIds>
+      <childrenIds>Simu:1:264:516</childrenIds>
+      <id>Simu:1</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="86d3ce98-e1d9-464f-80ca-3916b09efab3">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="edf27a68-b95c-412a-ab8e-6282ee0cd5b5">
+          <name>Amplitudes</name>
+          <value>AAFJTQAAAAAOAAAAWAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAAFAAAAAQAAAAAAAAAJAAAAKAAAAAAAAAAAAAAAAAAAAAAA8D+amZmZmZnpPzMzMzMzM/M/AAAAAAAA8D8=</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="81c8bca5-9d1a-4d26-9466-5406ccf45c47">
+          <name>FreqVps</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAElA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="4a624045-c216-45f7-b3d6-b791305dcb20">
+          <name>Mag_HarmoA</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAKebB2Z2VFBA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="9627fa82-fdef-4032-9c72-91465feea2ba">
+          <name>Mag_HarmoB</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAHlpC5mxfkhA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="c640a8ca-3301-4323-ab1c-b4238bc0fe03">
+          <name>MagnitudeVps</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAJCCif+TaXRA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="37e6f27b-d130-4b7a-9070-83a9eb7f55bb">
+          <name>PhaseVps</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="28b79206-abd6-4571-8b5c-4b3b76717141">
+          <name>Phase_HarmoA</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAADnA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="b69a4153-47e2-461c-9bd9-8b9c4515872e">
+          <name>Phase_HarmoB</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAgEFA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="369cf839-3ef7-4feb-bab8-79451e424d9b">
+          <name>Seq_HarmoA</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="e909233f-c4e7-47dd-a74b-dbe3c29f9887">
+          <name>Seq_HarmoB</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAABA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="6f21dcc2-a924-4d42-b1e4-9c29ac99cfba">
+          <name>TimeValues</name>
+          <value>AAFJTQAAAAAOAAAAWAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAAFAAAAAQAAAAAAAAAJAAAAKAAAAAAAAAAAAAAAuB6F61G4rj+amZmZmZm5P+xRuB6F68E/CtejcD0Kxz8=</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="046819a5-def2-497d-b42d-f9930d664fb5">
+          <name>Toff_Harmo</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAADlA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="7b047a45-394e-466e-8b37-b03c69894893">
+          <name>Toff_Variation</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAOxRuB6F68E/</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="bbef5b7e-1f21-4cb4-8560-0bf9c83b3082">
+          <name>Ton_Harmo</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAABRA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="2e6a4ac1-68d3-450a-a960-dc7972d8445a">
+          <name>Ton_Variation</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAALgehetRuK4/</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="cec3efd0-b12e-42ca-903b-35db6a67662a">
+          <name>Ts</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAC1DHOviNgo/</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="cf513924-e8be-4770-b5b7-25bd6a7b83d7">
+          <name>n_HarmoA</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAABRA</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="9641e5d1-c890-4bdd-818c-d91bb77ed08a">
+          <name>n_HarmoB</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAACZA</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0b4dbcdb-d2d2-468e-85ba-df2656e3573a">
+          <evaluate>true</evaluate>
+          <expression>[400  0 50]</expression>
+          <isTunable>true</isTunable>
+          <name>PositiveSequence</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b1280a9c-d6f4-418a-85e0-0bd58312f58c">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>VariationEntity</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8753303b-30be-4152-9761-ea9ee953f400">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>VariationType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b0087985-0a0e-4cbe-84d9-7eb7ba5da032">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>VariationTypeAlt</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bfa7cf6d-14f6-4aa6-8fb2-9de8d32a5055">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <isTunable>true</isTunable>
+          <name>VariationStep</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="143e6d52-1c5d-459e-ae2b-038de91518cf">
+          <evaluate>true</evaluate>
+          <expression>60</expression>
+          <isTunable>true</isTunable>
+          <name>VariationRate</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="08908b53-47b6-4b33-bc21-5f74c1cca14c">
+          <evaluate>true</evaluate>
+          <expression>0.3</expression>
+          <isTunable>true</isTunable>
+          <name>VariationMagnitude</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="03f24de9-87df-49b8-ae22-0804a61b9f64">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <isTunable>true</isTunable>
+          <name>VariationFrequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4ec5104c-3a1d-4797-bdc0-99fab2e9514f">
+          <evaluate>true</evaluate>
+          <expression>[0.06,0.14]</expression>
+          <isTunable>true</isTunable>
+          <name>VariationTiming</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9c5b8a03-9e72-4ae3-8160-73ad5d39f7bf">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>VariationPhaseA</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="96b3ace2-0aed-457f-b658-988b7fc9540c">
+          <evaluate>true</evaluate>
+          <expression>[1 0.8 1.2 1.0]</expression>
+          <isTunable>true</isTunable>
+          <name>Amplitudes</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a968d136-9b0f-433f-8388-573c94b325b2">
+          <evaluate>true</evaluate>
+          <expression>[0.06,0.10,0.14, 0.18]</expression>
+          <isTunable>true</isTunable>
+          <name>TimeValues</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="edc2e04e-629c-405e-82c7-49d5c2529cc3">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>HarmonicGeneration</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="71446f12-86bd-4196-aa87-a92bf6bc96c3">
+          <evaluate>true</evaluate>
+          <expression>[5 0.2 -25 0]</expression>
+          <isTunable>true</isTunable>
+          <name>HarmonicA</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="efc042fd-5453-47e2-a4f1-643708f31d1c">
+          <evaluate>true</evaluate>
+          <expression>[11 0.15 35 2]</expression>
+          <isTunable>true</isTunable>
+          <name>HarmonicB</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="12161a1c-0acb-4078-a32a-62733478cde9">
+          <evaluate>true</evaluate>
+          <expression>[5  25]</expression>
+          <isTunable>true</isTunable>
+          <name>Timing</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d7601cd1-3d4f-40f9-be57-ed8fda2c9eff">
+          <expression>swing</expression>
+          <name>BusType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3408039d-160e-45ba-b3c3-f4d39e27d7e4">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Pref</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="de044136-31ec-410c-a939-c1d070524bf8">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Qref</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b8a126c1-397f-425c-a6cd-7789d511f410">
+          <evaluate>true</evaluate>
+          <expression>-inf</expression>
+          <name>Qmin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e5538ddc-d086-47af-8aa3-8e285434f5c8">
+          <evaluate>true</evaluate>
+          <expression>inf</expression>
+          <name>Qmax</name>
+        </dialogParameters>
+        <initializationCode>block=gcb;
+[Ts, WantBlockChoice, VariationType, SinglePhase, MagnitudeVps, PhaseVps, FreqVps, ...
+    VariationStep, VariationRate, VariationMagnitude, Ton_Variation, ...
+    Toff_Variation, n_HarmoA, n_HarmoB, Mag_HarmoA, Phase_HarmoA, Seq_HarmoA, ...
+    Mag_HarmoB, Phase_HarmoB, Seq_HarmoB, Ton_Harmo, Toff_Harmo, ...
+    TimeValues, Amplitudes, vec_dt  ] = powericon(&apos;ThreePhaseProgSourceInit&apos;,block,...
+    PositiveSequence, VariationEntity, VariationType, VariationTypeAlt,...
+    VariationStep, VariationRate, VariationMagnitude, VariationTiming, ...
+    TimeValues, HarmonicA, HarmonicB, Timing, Amplitudes);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+</initializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="d3812d30-0f52-4569-8281-a2d6e4070d86">
+      <blockPath>Simu/Three-Phase Programmable Voltage Source/Model/Harmonic Generator/Harmonic A generation</blockPath>
+      <id>Simu:1:264:139</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="9fcfa92b-611f-43fd-af10-e41b3edb6b51">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0e5260a9-e98e-44fa-b04f-1603e64e5839">
+          <evaluate>true</evaluate>
+          <expression>n_HarmoA </expression>
+          <isTunable>true</isTunable>
+          <name>n_Harmo</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="e0bb7fca-cc3d-4e9f-8030-d888a84f2489">
+            <name>n_HarmoA</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b0d8df5d-52a0-4ad4-92e6-a3a0fc1d947f">
+          <evaluate>true</evaluate>
+          <expression>Mag_HarmoA </expression>
+          <isTunable>true</isTunable>
+          <name>Mag_Harmo</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="4e421a5c-178c-4486-920a-53d1bbd5c79d">
+            <name>Mag_HarmoA</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="437e8257-1139-4eeb-a80a-bf3f84193747">
+          <evaluate>true</evaluate>
+          <expression>Phase_HarmoA</expression>
+          <isTunable>true</isTunable>
+          <name>Phase_Harmo</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="e49b9781-6d1c-443b-9d39-5eaee8761b60">
+            <name>Phase_HarmoA</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3d4713fd-c8a3-4fb5-877b-967ab586b07b">
+          <evaluate>true</evaluate>
+          <expression>Seq_HarmoA</expression>
+          <isTunable>true</isTunable>
+          <name>Seq_Harmo</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="9af04409-de2f-4342-b769-238e75d37808">
+            <name>Seq_HarmoA</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1688aefc-7d11-4ef9-b811-b53850b1a3bd">
+          <evaluate>true</evaluate>
+          <expression>Ts</expression>
+          <isTunable>true</isTunable>
+          <name>Ts</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="510f4bb3-b9a9-44fa-8d14-62c34ba8767c">
+            <name>Ts</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>Simu:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="ea4c8582-d230-4d76-a9a7-e4dcb2e4c1b3">
+      <blockPath>Simu/Three-Phase Programmable Voltage Source/Model/Harmonic Generator/Harmonic B generation</blockPath>
+      <id>Simu:1:264:157</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="3f56914c-1a8d-40e1-8768-f55de419c940">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="417b8223-85dc-41fb-a618-3807df990e24">
+          <evaluate>true</evaluate>
+          <expression>n_HarmoB</expression>
+          <isTunable>true</isTunable>
+          <name>n_Harmo</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="cd8bac7d-2d95-4462-8ccf-f033e8b5ee83">
+            <name>n_HarmoB</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1ebd90cc-37b1-4706-a912-c6baf9f8af0a">
+          <evaluate>true</evaluate>
+          <expression>Mag_HarmoB </expression>
+          <isTunable>true</isTunable>
+          <name>Mag_Harmo</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="973af948-acb6-401f-9878-273aa2ed9b50">
+            <name>Mag_HarmoB</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5c7b1de5-f888-4eef-871b-63250339ea91">
+          <evaluate>true</evaluate>
+          <expression>Phase_HarmoB</expression>
+          <isTunable>true</isTunable>
+          <name>Phase_Harmo</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="4e18e182-53ff-4c67-a408-54717ea68785">
+            <name>Phase_HarmoB</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="45a0505d-7fd2-48cc-b73c-b040faaac93e">
+          <evaluate>true</evaluate>
+          <expression>Seq_HarmoB</expression>
+          <isTunable>true</isTunable>
+          <name>Seq_Harmo</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="2bf3060e-3c9e-4432-b603-821ef9c1e159">
+            <name>Seq_HarmoB</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9c5c8034-b246-4ec4-83be-aeb74e886ae2">
+          <evaluate>true</evaluate>
+          <expression>Ts</expression>
+          <isTunable>true</isTunable>
+          <name>Ts</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="37f2c05b-aba7-4164-a666-b423fb78aafc">
+            <name>Ts</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>Simu:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="1f18b5fc-2166-4330-a2c6-3a14f21123da">
+      <blockPath>Simu/Three-Phase Programmable Voltage Source/Model/Signal generator/Variation SubSystem</blockPath>
+      <id>Simu:1:264:209</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="bc4bfed1-9201-4f48-acf2-c046ae1ed01b">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0acfc007-315f-4560-89d8-5d6dc47b3fb1">
+          <evaluate>true</evaluate>
+          <expression>VariationStep</expression>
+          <isTunable>true</isTunable>
+          <name>VariationStep</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="d5e958c1-ad86-48c9-8d35-5c19f8b490c6">
+            <name>VariationStep</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="eefe085d-c1f0-4048-8dfa-86526b607651">
+          <evaluate>true</evaluate>
+          <expression>VariationRate</expression>
+          <isTunable>true</isTunable>
+          <name>VariationRate</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="c11a4b12-e64b-4534-a4c6-31d3b93b2df4">
+            <name>VariationRate</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="33b69ca1-4d35-4f29-b74b-c7cff0233d16">
+          <evaluate>true</evaluate>
+          <expression>VariationFrequency</expression>
+          <isTunable>true</isTunable>
+          <name>VariationFreq</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="6aaa0f7d-a02d-4f01-ac16-52e754e0f10c">
+            <name>VariationFrequency</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4d704ea5-5552-4e58-8c26-024976f3d775">
+          <evaluate>true</evaluate>
+          <expression>VariationMagnitude</expression>
+          <isTunable>true</isTunable>
+          <name>VariationMag</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="87a2a79e-1080-400b-b132-7cac07798762">
+            <name>VariationMagnitude</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="21a095c4-a186-492f-8dfb-bfb7f290e522">
+          <evaluate>true</evaluate>
+          <expression>Ton_Variation</expression>
+          <isTunable>true</isTunable>
+          <name>Ton_Variation</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="bff49358-3bb1-402e-a6bc-c419efda07f9">
+            <name>Ton_Variation</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="98e20058-54a9-4a60-91d9-7df7496a9f7c">
+          <evaluate>true</evaluate>
+          <expression>Toff_Variation</expression>
+          <isTunable>true</isTunable>
+          <name>Toff_Variation</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="5281aba8-6807-4cf1-bbfc-8b2f4d60b862">
+            <name>Toff_Variation</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="cbbefee4-265f-444f-97ff-c916ee4d2289">
+          <evaluate>true</evaluate>
+          <expression>Ts</expression>
+          <isTunable>true</isTunable>
+          <name>Ts</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="8f39db1e-12e0-45db-9aa1-95f6ccfc03b1">
+            <name>Ts</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>Simu:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="3ef2a88c-e32b-4dd4-957d-1ac1b4965f2b">
+      <blockPath>Simu/Three-Phase Programmable Voltage Source/Model/Signal generator/Stair Generator</blockPath>
+      <id>Simu:1:264:516</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="0bf12c91-d1cb-4971-8cdc-38f5e347ba9b">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="fcbf6cd3-8724-42f1-b81e-3426f1c11bba">
+          <name>sps</name>
+          <value>AAFJTQAAAAAOAAAAMAIAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAFAAQACgAAAAEAAAAoAAAAdHYAAAAAAAAAAG9wdgAAAAAAAAB0dl9ibG9jawAAb3B2X2Jsb2NrAA4AAACAAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAoAAAABAAAAAAAAAAkAAABQAAAAAAAAAAAAAACoV8oyxLGuP6hXyjLEsa4/EzY8vVKWuT8TNjy9Upa5PymgibDh6cE/KaCJsOHpwT9HJXUCmgjHP0cldQKaCMc/qaROQBPh8j8OAAAAgAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAAKAAAAAQAAAAAAAAAJAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAPA/mpmZmZmZ6T+amZmZmZnpPzMzMzMzM/M/MzMzMzMz8z8AAAAAAADwPwAAAAAAAPA/DgAAAFgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAABQAAAAEAAAAAAAAACQAAACgAAAAAAAAAAAAAAKhXyjLEsa4/EzY8vVKWuT8poImw4enBP0cldQKaCMc/DgAAAFgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAABQAAAAEAAAAAAAAACQAAACgAAAAAAAAAAAAAAAAAAAAAAPA/mpmZmZmZ6T8zMzMzMzPzPwAAAAAAAPA/</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="12accc8b-39ab-44d6-891f-f7a9988955e2">
+          <evaluate>true</evaluate>
+          <expression>TimeValues</expression>
+          <isTunable>true</isTunable>
+          <name>t</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="0126e347-6b32-4d4f-898e-c62fdcaed481">
+            <name>TimeValues</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2bdb89a0-9764-40b8-9efd-0e811732b6ad">
+          <evaluate>true</evaluate>
+          <expression>Amplitudes</expression>
+          <isTunable>true</isTunable>
+          <name>e</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="028ee167-4344-46f0-a5e5-c2526fc07437">
+            <name>Amplitudes</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fb8371a0-ae82-409a-a796-663e019d874d">
+          <evaluate>true</evaluate>
+          <expression>Ts</expression>
+          <isTunable>true</isTunable>
+          <name>Ts</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="3647279b-bcf9-48e8-a324-7f73e10f7771">
+            <name>Ts</name>
+            <value></value>
+            <workspace>Simu:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <initializationCode>block=gcb;
+[WantBlockChoice,Ts,sps] = powericon(&apos;StairGeneratorInit&apos;,block,t,e,Ts);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);</initializationCode>
+      </masks>
+      <parentId>Simu:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="23383339-c8df-4613-aa61-9192beaa85f8">
+      <blockPath>Simu/B1</blockPath>
+      <childrenIds>Simu:3:524:105</childrenIds>
+      <childrenIds>Simu:3:524:106</childrenIds>
+      <childrenIds>Simu:3:524:107</childrenIds>
+      <childrenIds>Simu:3:524:108</childrenIds>
+      <childrenIds>Simu:3:524:109</childrenIds>
+      <childrenIds>Simu:3:524:110</childrenIds>
+      <childrenIds>Simu:3:524:119</childrenIds>
+      <id>Simu:3</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="f0f54028-de50-4362-865d-5fa7fa1c478e">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="07e04411-3085-475b-9ea0-0dcc2c7e9e73">
+          <name>Ki</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAPA/</value>
+        </cachedVariables>
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="c1ce01dc-cc93-4a6b-a4aa-006b01a22718">
+          <name>Kv</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAPA/</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5f1f36f6-fba1-46a2-b263-a8ea65b0be1e">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>VoltageMeasurement</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="206eaa77-3ff7-41c3-a291-304d09d404e1">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SetLabelV</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4a39a05b-3b7d-4743-bfb7-dcdf3f460823">
+          <expression>Vabc_B1</expression>
+          <name>LabelV</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="06682311-7a38-4e3d-99c1-61259129778e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Vpu</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4f1d648e-4276-4cdc-a82e-31e9c35c0ec5">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>VpuLL</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="aac70294-01b2-4fc9-bc3d-409094d64601">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>CurrentMeasurement</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ee5d7add-de94-4ba0-806c-d148a9281f92">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SetLabelI</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9be7adb7-3661-4286-8824-090743ae0184">
+          <expression>Iabc_B1</expression>
+          <name>LabelI</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="891d43c3-1eee-4058-8c33-07b32133fdfe">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Ipu</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="669ce8c8-5593-4592-bdb8-5b0d2b04f2ed">
+          <evaluate>true</evaluate>
+          <expression>100e6</expression>
+          <isTunable>true</isTunable>
+          <name>Pbase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="87070a42-eae5-46d1-a4a9-fcaabd59cf92">
+          <evaluate>true</evaluate>
+          <expression>230e3</expression>
+          <isTunable>true</isTunable>
+          <name>Vbase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e03e5703-fb6d-433e-ae14-314affcc373f">
+          <expression>Complex</expression>
+          <name>OutputType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="73ad1e93-9efe-43b0-be8b-8132e1c7c3ff">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PhasorSimulation</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="487c82c2-86a0-4844-953a-1da10191337d">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PSBequivalent</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+Kv=1;
+Ki=1;
+[Kv,Ki] = powericon(&apos;ThreePhaseVIMeasurementParam&apos;,block,Vpu,VpuLL,Ipu,Vbase,Pbase,PhasorSimulation,OutputType);
+powericon(&apos;ThreePhaseVIMeasurementCback&apos;,block);
+power_initmask();</initializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="95f795b6-abc1-4a5d-9d7c-74aa4845c630">
+      <blockPath>Simu/powergui</blockPath>
+      <childrenIds>Simu:31:239</childrenIds>
+      <id>Simu:31</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="b44a5bec-d87d-4177-92f6-08a4f8685239">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="269c3921-6c07-44d7-8f02-52740ed0bfb7">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <isTunable>true</isTunable>
+          <name>SimulationMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1b06752f-692a-4ca9-a512-9f1b03e959df">
+          <evaluate>true</evaluate>
+          <expression>50e-6</expression>
+          <isTunable>true</isTunable>
+          <name>SampleTime</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6c9c890d-e7be-43aa-83b5-e77adc7e0c5c">
+          <evaluate>true</evaluate>
+          <expression>60</expression>
+          <isTunable>true</isTunable>
+          <name>frequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f4200ff7-9ca0-49a8-8f5b-f533e98af3cb">
+          <evaluate>true</evaluate>
+          <expression>50</expression>
+          <isTunable>true</isTunable>
+          <name>Iterations</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b232edb8-62c6-4cfa-bd2f-a688abfd5729">
+          <evaluate>true</evaluate>
+          <expression>50</expression>
+          <isTunable>true</isTunable>
+          <name>frequencyindice</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="01507054-3ece-4c51-9f03-2fa34a242862">
+          <evaluate>true</evaluate>
+          <expression>100e6</expression>
+          <isTunable>true</isTunable>
+          <name>Pbase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d4da03d6-4403-4581-bfa7-7b9ca3b89b26">
+          <evaluate>true</evaluate>
+          <expression>1e-4</expression>
+          <isTunable>true</isTunable>
+          <name>ErrMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3e0a3445-d959-4555-bb8a-46520892d886">
+          <expression>kV</expression>
+          <isTunable>true</isTunable>
+          <name>UnitsV</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fc50faa1-ac70-4125-9be9-1030f548c64d">
+          <expression>MW</expression>
+          <isTunable>true</isTunable>
+          <name>UnitsW</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e0816c0c-d5b2-4800-8f1b-25b1ee86f7f1">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>buscounter</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8329bb16-d61a-4f64-b998-712b82f749d5">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>FunctionMessages</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8fcedec2-66d5-405d-afdc-1510c1db866e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>echomessages</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e2e66ca6-ca11-4ac1-b415-9fe952a68cbe">
+          <expression>off</expression>
+          <isTunable>true</isTunable>
+          <name>EnableUseOfTLC</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3997ac07-d7b9-45a4-96d5-4cc9a671f30e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>CurrentSourceSwitches</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ada1e150-ff61-44eb-8052-7e84131b5ec3">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DisableSnubberDevices</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="79029943-025b-4edb-9518-51cd1f0442e3">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DisableRonSwitches</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="63e7ffec-9373-4591-a185-da0bef4d037a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DisableVfSwitches</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fc4ef0a5-dbc5-4f09-b82d-dc1fde7952a0">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DisplayEquations</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="874e389a-b4f3-45b5-a8c0-39f1176f9599">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>AutomaticDiscreteSolvers</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fc6f7067-89cf-4c38-9740-23e897f76599">
+          <expression>Tustin/Backward Euler (TBE)</expression>
+          <isTunable>true</isTunable>
+          <name>SolverType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="24d3dbbe-b7f0-40d0-88d3-30a0d34f9893">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Interpol</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0a069691-b7b2-4529-a419-eac2fbf33b7e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>ExternalGateDelay</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3ca84bcd-810c-463f-9c50-b767cbbbd0c9">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>methode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="76dd79d7-2177-487c-8bd9-fa531e3aa51e">
+          <evaluate>true</evaluate>
+          <expression>100</expression>
+          <isTunable>true</isTunable>
+          <name>Ts</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8fbc156a-6ce0-478f-9c0f-0a6805db3305">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>x0status</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8e91a3fe-9b6a-418f-bac0-b38c2250ab28">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>SPID</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bb86f783-8dc0-48ce-88e1-e4561bf18d4c">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>SwTol</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4ae783e9-439f-48cb-b39d-63efe2813b12">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>HookPort</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ca5fbccf-b200-4990-8a73-039fc1a4f35c">
+          <evaluate>true</evaluate>
+          <expression>1e-4</expression>
+          <isTunable>true</isTunable>
+          <name>NonlinearTolerance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6adf4dd1-c060-4bc0-8ea9-44f7faeaa70f">
+          <evaluate>true</evaluate>
+          <expression>100</expression>
+          <isTunable>true</isTunable>
+          <name>nMaxIteration</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="90e197c2-51d4-4278-8d7a-edc59cad7420">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>ContinueOnMaxIteration</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4a4418a7-efdf-4e84-b7e8-4b8afc4f7a31">
+          <expression>warning</expression>
+          <isTunable>true</isTunable>
+          <name>RestoreLinks</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="00d07723-77eb-479c-a5b3-79684e7ebb82">
+          <expression>off</expression>
+          <isTunable>true</isTunable>
+          <name>ResistiveCurrentMeasurement</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="be62b503-ce3d-4def-a287-095efd63f15b">
+          <evaluate>true</evaluate>
+          <expression>[0:2:500]</expression>
+          <isTunable>true</isTunable>
+          <name>Frange</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="45c450f9-e8d4-40c5-9d6b-bbf38dbe01cb">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Ylog</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8ecd9932-5de7-4ae7-af73-44ec83b9d92b">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>Xlog</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="68e6518e-eb8d-40ce-9f00-02d16729266c">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>ShowGrid</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="de75dd19-dc44-421e-b13a-f651be5db052">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>save</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4d7a1148-2bc1-4ad6-be35-1e9b86677704">
+          <expression>ZData</expression>
+          <isTunable>true</isTunable>
+          <name>variable</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="200883d9-db5b-460a-8efd-29ba655c8936">
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>structure</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="27af75ca-4de5-4f80-8602-097736999e1b">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>ZoomFFT</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2e599d74-b807-4988-b683-35f639a4b422">
+          <evaluate>true</evaluate>
+          <expression>0.0</expression>
+          <isTunable>true</isTunable>
+          <name>StartTime</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b6a66b5a-095a-4371-bd71-966d8ac915a2">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>cycles</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f207a1c6-ece3-45ef-804d-e890f782bf44">
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>DisplayStyle</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="859fa63a-a7a2-4aa3-9e3f-9b86dfbffc87">
+          <evaluate>true</evaluate>
+          <expression>60</expression>
+          <isTunable>true</isTunable>
+          <name>fundamental</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="51349ecd-707f-447e-875b-8a4a6274cdd5">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>FreqAxis</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="cc7fd42a-08d2-4d7a-bd8a-e1665cdbdad4">
+          <evaluate>true</evaluate>
+          <expression>1000</expression>
+          <isTunable>true</isTunable>
+          <name>MaxFrequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fb4043f6-839c-4ed6-a229-c71b11a170b6">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>frequencyindicesteady</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b748dad7-ccdd-4894-9828-f568e440d478">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>RmsSteady</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="47b36f12-0f87-4ac9-9626-cd2bba065bc1">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>display</name>
+        </dialogParameters>
+        <initializationCode>dispMessage = powergui(&apos;MaskInitialization&apos;,gcb,SimulationMode,SampleTime);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="c33da2b5-3d98-4328-9026-5f3061923ecd">
+      <blockPath>Simu/powergui/EquivalentModel1</blockPath>
+      <id>Simu:31:239</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="69d19f82-e043-451d-9e48-831ab5c2faf6">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="1bdab691-d88a-4f48-af94-382075591c6e">
+          <name>S</name>
+          <value>AAFJTQAAAAAOAAAAOAYAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAFAAQAFwAAAAEAAACHAQAAU3dpdGNoUmVzaXN0YW5jZQAAAAAAAABTd2l0Y2hWZgAAAAAAAAAAAAAAAAAAAFN3aXRjaFR5cGUAAAAAAAAAAAAAAAAAU3dpdGNoR2F0ZUluaXRpYWxWYWx1ZQBFbmFibGVVc2VPZlRMQwAAAAAAAAAAAE91dHB1dHNUb1Jlc2V0VG9aZXJvAAAATm9FcnJvck9uTWF4SXRlcmF0aW9uAABUcwAAAAAAAAAAAAAAAAAAAAAAAAAAAEludGVycG9sYXRlAAAAAAAAAAAAAAAAU2F2ZU1hdHJpY2VzAAAAAAAAAAAAAABCdWZmZXJTaXplAAAAAAAAAAAAAAAAAFRCRU9OAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAA8D8OAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAC1DHOviNgo/DgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAFlADgAAADAAAAAGAAAACAAAAAkCAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAAAgABAAEAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAMAAAABAAAAAAAAAAkAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAGAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAwAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAYAAAADAAAAAQAAAAAAAAAJAAAAkAAAAD2CNwDS+e4/AAAAAAAAAAAAAAAAAAAAALbissIV00M/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPYI3ANL57j8AAAAAAAAAAAAAAAAAAAAAtuKywhXTQz8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9gjcA0vnuPwAAAAAAAAAAAAAAAAAAAAC24rLCFdNDPw4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAEAAAABAAAAAAAAAAkAAAAAAAAA</value>
+        </cachedVariables>
+        <initializationCode>S  = GetDataForEquivalentModel(&apos;Discrete&apos;,gcbh);</initializationCode>
+      </masks>
+      <parentId>Simu:31</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="d2e46676-2761-4d88-ac3b-6cdc70ef1d09">
+      <blockPath>Simu/Series RLC Load</blockPath>
+      <id>Simu:34</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="627d2d28-a3fa-4f15-99d8-fb60e3c84a7f">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="15db095b-1579-4bc5-a503-6691e52714f2">
+          <evaluate>true</evaluate>
+          <expression>230</expression>
+          <name>NominalVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="165084ca-0be7-4f26-92d3-976c9f910838">
+          <evaluate>true</evaluate>
+          <expression>50</expression>
+          <name>NominalFrequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="23dcb35d-6f29-4800-bf3e-52810fd624ee">
+          <evaluate>true</evaluate>
+          <expression>1e3</expression>
+          <name>ActivePower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7eca8896-e405-4be3-af77-caff9574804b">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InductivePower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="87139402-d536-46be-a8aa-e588c45c797d">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>CapacitivePower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="456c914b-0a5a-4bf8-9fdf-4f2f6e1fef09">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="46ccc3b6-3661-401d-854c-ae10abc7f072">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a13df0cb-bd14-47bf-9d13-67551351c01f">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1ac1e6fd-5dcb-4559-bfc4-0777e0162837">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6107ae8c-4fbe-4463-bed8-45bae682449c">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="20556cac-4b00-4cfd-9218-ac2cdea0de72">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>LoadType</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Load&apos;,ActivePower,InductivePower,CapacitivePower);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="472931db-4af6-4e1f-b358-46c198ccc7fc">
+      <blockPath>Simu/Series RLC Load1</blockPath>
+      <id>Simu:39</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="ee804ee1-5758-46fd-bca0-4dae99d22a59">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4518484e-baf9-4cca-b731-b498be73107d">
+          <evaluate>true</evaluate>
+          <expression>230</expression>
+          <name>NominalVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5bc9b5df-c54e-4a02-8db8-051a4a5b3208">
+          <evaluate>true</evaluate>
+          <expression>50</expression>
+          <name>NominalFrequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c1202b12-03a4-416d-a15f-0c30216aa75e">
+          <evaluate>true</evaluate>
+          <expression>1e3</expression>
+          <name>ActivePower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="51e96b06-343e-42a0-896d-98fc86d05f14">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InductivePower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f436b903-6669-4d57-89d0-ab71dd518f94">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>CapacitivePower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4e16f902-6777-4b0a-b0c7-e9a6aecc4bf4">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="dbd30826-b881-41e9-a11e-7e85eae88c16">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="13b0400f-a42e-4393-b6d1-275ecf6dc0b2">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b63eed5d-2132-4ff6-9b8a-10d9fc6695f6">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="52233e8b-06ba-41e8-86e8-0f5e1868e487">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="629a996d-3435-4fa1-9623-0d49934af6d9">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>LoadType</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Load&apos;,ActivePower,InductivePower,CapacitivePower);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="e6e0998b-8b53-487b-a2fe-63194f321934">
+      <blockPath>Simu/B1/Model/I A:</blockPath>
+      <id>Simu:3:524:105</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="fc7d052d-5975-4d06-ba14-d2a183553fe4">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="20bd9691-538f-43f9-8267-591f26522e6d">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PhasorSimulation</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e02e7e32-213d-4f8d-915a-4e9845a07c12">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>OutputType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="cffd0c22-c745-4052-902b-174612b3d4e7">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PSBequivalent</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>Simu:3</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="95b07ddf-5439-4abd-a958-17566363406d">
+      <blockPath>Simu/B1/Model/I B:</blockPath>
+      <id>Simu:3:524:106</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="e19bc525-0a7c-4e61-a2d4-71d8445ddec9">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="27a89287-b628-408d-8808-c864df6475d5">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PhasorSimulation</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e86fbfe0-54df-4a76-a76d-753955fedff7">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>OutputType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="dc25b64b-9e26-4e51-9001-2702d53113de">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PSBequivalent</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>Simu:3</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="c3c98f3d-9760-4160-8edd-0ad21deac88c">
+      <blockPath>Simu/B1/Model/I C:</blockPath>
+      <id>Simu:3:524:107</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="e1e476af-19c6-4251-b68b-1c5903478da0">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c0a30cb1-346e-43fa-b8ac-4e01d7acdad9">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PhasorSimulation</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ce2c6961-0b9e-410a-bfc5-7d44412968e3">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>OutputType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0381f715-63ca-42dd-bc16-747e2139b61d">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PSBequivalent</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>Simu:3</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="ab3852da-4870-40ec-afe7-21e9932496dd">
+      <blockPath>Simu/B1/Model/U A:</blockPath>
+      <id>Simu:3:524:108</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="d03729e5-cf86-4797-83b7-73260344520f">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="22ee4bcf-7143-4142-9beb-322e0c1235cd">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PhasorSimulation</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="965ab37c-169c-436a-bf9b-c6acd9ad5178">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>OutputType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="cd3890e1-8f5f-4a84-89dd-6f25eda77687">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PSBequivalent</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>Simu:3</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="b3bc14fd-3eb6-4ee7-8f28-331947621966">
+      <blockPath>Simu/B1/Model/U B:</blockPath>
+      <id>Simu:3:524:109</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="e1f5953a-d2ff-4c97-8ccb-387aa889048a">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f77d17bb-7b6e-4ca2-b9ba-bb26e5e0af20">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PhasorSimulation</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2553deaf-bffa-43fc-8e98-11b16cce3c8c">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>OutputType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="cf45595f-ba98-49fc-910e-ff101cdbbd8a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PSBequivalent</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>Simu:3</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="e66495bf-9160-432d-83e3-37a37eaaf70a">
+      <blockPath>Simu/B1/Model/U C:</blockPath>
+      <id>Simu:3:524:110</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="c3019f21-2063-4c32-a883-6c14d99f3ecd">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="51a296d4-0ebf-4e93-b8df-039a817b1893">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PhasorSimulation</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="02785b4d-2b35-4349-bcae-41f210f603da">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>OutputType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d51b4338-7397-487a-b842-abb9cd1eefde">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PSBequivalent</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>Simu:3</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="5e04f7a8-1253-46f2-8b7a-37906d4ad7e6">
+      <blockPath>Simu/B1/Model/Ground</blockPath>
+      <id>Simu:3:524:119</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="5ab8121a-a4f4-4f34-9ecb-5eba8f50a24c">
+        <initializationCode>power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>Simu:3</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="0d1370cf-ea35-4847-bcd1-c44003e0a99d">
+      <blockPath>Simu/Series RLC Load2</blockPath>
+      <id>Simu:40</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="50a14dba-3bb1-420b-a393-e232cb5be2c6">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e12d90d1-d483-4727-8cb1-d713eadcbc37">
+          <evaluate>true</evaluate>
+          <expression>230</expression>
+          <name>NominalVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="83394da6-7d31-4031-987b-c4bf74d6c827">
+          <evaluate>true</evaluate>
+          <expression>50</expression>
+          <name>NominalFrequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b88882cf-07d6-466d-bda7-4ed697c7a3ff">
+          <evaluate>true</evaluate>
+          <expression>1e3</expression>
+          <name>ActivePower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f376b236-580a-4c45-b059-17e4ec105cf3">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InductivePower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="02e96b29-22d3-4407-85d8-79f9b271e50d">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>CapacitivePower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="65544ab1-070d-4f73-8f8d-05cf337a394b">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bf866e6c-ddd4-4154-9449-ad5cd0bcbfae">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0feef1de-98f8-46cf-9333-9df59f2cdd7d">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bdad0a64-969f-427c-ba13-40351d4d7ed4">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3b1dde01-1d68-4b86-98ff-fe2b528da81a">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1c42b813-5943-4b9c-ae73-b48e287850cd">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>LoadType</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Load&apos;,ActivePower,InductivePower,CapacitivePower);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="6e231bde-f818-4f39-9153-c6680cb20b76">
+      <blockPath>Simu/Ground</blockPath>
+      <id>Simu:46</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="19f0d6e0-6386-4a31-9d28-503714c7cc42">
+        <initializationCode>power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="ba775604-1370-4784-a51e-cb1deb1d13a9">
+      <blockPath>Simu/967MW 100MVAR -187MVAR1</blockPath>
+      <id>Simu:49</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="69528284-6118-4fc9-9413-1f17e41a5b69">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6db2171b-9a4f-46f8-aea1-8ca920126c44">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Configuration</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ce91e79c-1575-46c6-9efd-ca3167f04011">
+          <evaluate>true</evaluate>
+          <expression>400</expression>
+          <name>NominalVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="70a5b311-ad55-4d0f-b101-f63252629a9d">
+          <evaluate>true</evaluate>
+          <expression>[1e3 1e3 1e3]</expression>
+          <isTunable>true</isTunable>
+          <name>Vabc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d1ea2d5f-445e-48b5-9301-a223fea99bbb">
+          <evaluate>true</evaluate>
+          <expression>[1e3 1e3 1e3]</expression>
+          <isTunable>true</isTunable>
+          <name>Vabcp</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="07989a33-5b3d-4cb9-a8b5-cdc53d17d163">
+          <evaluate>true</evaluate>
+          <expression>50</expression>
+          <name>NominalFrequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6c8ccf82-a385-46bb-a7a9-a8ffbbc9b129">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>UnbalancedPower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5b695647-011f-42c1-838b-3d5d0e54ab72">
+          <evaluate>true</evaluate>
+          <expression>100</expression>
+          <name>ActivePower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f5e81504-918e-4373-a56f-5a17e1e35634">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InductivePower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="988cbc76-9dc9-4246-aee8-aa0c65dca649">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>CapacitivePower</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="15c9164e-fa3a-4d15-93c7-a6e9c071bfb8">
+          <evaluate>true</evaluate>
+          <expression>[10e3 9e3 11e3]</expression>
+          <isTunable>true</isTunable>
+          <name>Pabc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="61fb2170-2a72-45ae-b181-aaeb063f7b0e">
+          <evaluate>true</evaluate>
+          <expression>[100 90 110]</expression>
+          <isTunable>true</isTunable>
+          <name>QLabc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9072af5e-7890-4deb-8df9-920a346d6a83">
+          <evaluate>true</evaluate>
+          <expression>[100 90 110]</expression>
+          <isTunable>true</isTunable>
+          <name>QCabc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7c4b781b-781a-43c0-8f74-7b099b5397c3">
+          <evaluate>true</evaluate>
+          <expression>[10e3 9e3 11e3]</expression>
+          <isTunable>true</isTunable>
+          <name>Pabcp</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2d868946-be86-4593-b2d2-2bef076e9069">
+          <evaluate>true</evaluate>
+          <expression>[100 90 110]</expression>
+          <isTunable>true</isTunable>
+          <name>QLabcp</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f8a474d8-7b43-4b13-be73-82469cefee12">
+          <evaluate>true</evaluate>
+          <expression>[100 90 110]</expression>
+          <isTunable>true</isTunable>
+          <name>QCabcp</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="084e52fa-5ac3-462e-97bb-d99c3b99cdcf">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="56426162-6c0c-4f3b-a2d2-05759b66b589">
+          <evaluate>true</evaluate>
+          <expression>3</expression>
+          <name>LoadType</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4,x1,x2,x3,x4] = powericon(&apos;Parallel RLC Load&apos;,ActivePower,InductivePower,CapacitivePower,UnbalancedPower,Pabc,QLabc,QCabc,Pabcp,QLabcp,QCabcp,Configuration);
+ground = Configuration==1;
+neutral = Configuration==3;
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="0ddaf363-4d4e-4637-a165-728256185897">
+      <childrenIds>Simu:1</childrenIds>
+      <childrenIds>Simu:3</childrenIds>
+      <childrenIds>Simu:31</childrenIds>
+      <childrenIds>Simu:34</childrenIds>
+      <childrenIds>Simu:39</childrenIds>
+      <childrenIds>Simu:40</childrenIds>
+      <childrenIds>Simu:46</childrenIds>
+      <childrenIds>Simu:49</childrenIds>
+      <id>root</id>
+    </maskedBlocks>
+    <flags type="slsa.mm.maskTree.MaskTreeFlags" uuid="09dbf4db-2693-4ce9-97c4-43386f51e567"/>
+  </slsa.mm.maskTree.MaskTree>
+</MF0>
