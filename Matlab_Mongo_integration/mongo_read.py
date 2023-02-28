@@ -9,7 +9,7 @@ def main():
         'hostname':'192.168.200.129',
         'port':27017,
         'db':'ps_link',
-        'collection':'test_collection_2'
+        'collection':'test_collection_1'
     }
 
     conn_str = f"mongodb://{db_vars['hostname']}:{db_vars['port']}/"
